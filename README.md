@@ -1,4 +1,4 @@
-# Project: Jupyter Notebook Pyinstaller
+# Project: Jupyter Notebook Pyinstaller 
 
 Contains the spec file and python script to generate an executable for Jupyter notebook.
 
