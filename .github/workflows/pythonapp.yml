@@ -24,7 +24,7 @@ jobs:
         set PIPENV_VENV_IN_PROJECT=1
         pipenv install
         pipenv shell
-        build_win_exe.bat        
+        pipenv run build_win_exe.bat        
     - uses: actions/upload-artifact@v1
       with:
         name: artifact
